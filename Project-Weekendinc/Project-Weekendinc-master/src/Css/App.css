@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
+
+/*
+Css untuk semua
+*/
+
+[class*="col-"] {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+    Css untuk row di body
+*/
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*
+    Css untuk teks " Weekend From Home "
+*/
+.get-start {
+  color: #ffffff;
+  text-align: center;
+  font-size: 62px;
+  margin-top: 50px;
+  font-family: "Work Sans", Black 900;
+  font-weight: bold;
+}
+
+/*
+    Css untuk Logo
+*/
+
+.logo-style {
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+.logo-defin {
+  text-align: right;
+}
+
+/*
+    Css untuk teks "  Stay active with a little workout "
+*/
+
+.desk {
+  color: #ffffff;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Work Sans", Extra-light 200 italic;
+}
+
+/*
+    Css untuk set baground Home
+*/
+
+#backgrounds {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eebece;
+  background-image: url("../../src/assets/image/bg1.png");
+}
+
+/*
+    Css untuk page Abouts 
+*/
+
+.abouts {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*
+    Css untuk text " Testimonial "
+*/
+
+.test {
+  margin-top: -100px;
+  font-weight: bold;
+  font-family: "Work Sans", Black 900;
+  font-size: 32px;
+}
+
+/*
+    Css untuk page Definitions
+*/
+
+.defin {
+  background-color: #eebece;
+}
+
+/*
+    Css untuk font pada html
+*/
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+/*
+    Css untuk footer
+*/
+
+.wkn {
+  display: flex;
+  font-size: 15px;
+}
+
+.tbl {
+  font-weight: bold;
+}
+
+/* CSS untuk stye tampilan defalut */
+
+.header {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 17px 0px 17px 213px;
+}
+
+.deff {
+  text-align: right;
+  margin: 0px 374px 0px 373px;
+  font-size: 21px;
+}
+
+.it {
+  text-align: right;
+  color: #ffffff;
+  margin: 0px 374px 170px 373px;
+  font-size: 21px;
+}
+
+.App {
+  align-items: center;
+  justify-content: center;
+  margin-top: -75px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.pov {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.lorem {
+  text-align: center;
+  margin: 50px 374px 0px 373px;
+  font-size: 21px;
+}
+
+.abouts {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+.test {
+  margin-top: -100px;
+  font-weight: bold;
+  font-family: "Work Sans", Black 900;
+  font-size: 32px;
+  margin-bottom: 65px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  background-color: #0b24fb;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 18px 300px 5px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Yos {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 90px;
+}
+
+.isi {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: -130px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 17px 0px 17px 213px;
+  }
+  .deff {
+    text-align: right;
+    margin: 0px 250px 0px 250px;
+  }
+  .it {
+    text-align: right;
+    color: #ffffff;
+    margin: 0px 200px 0px 200px;
+    margin-bottom: 160px;
+  }
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -230px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .pov {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .lorem {
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+  }
+  .abouts {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .test {
+    margin-top: -100px;
+    font-weight: bold;
+    font-family: "Work Sans", Black 900;
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: #ffffff;
+  }
+  .footer {
+    background-color: #0b24fb;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 18px 150px 5px 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Yos {
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 90px;
+  }
+  .isi {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: -90px;
+  }
+  .logo-defin {
+    text-align: right;
+  }
+}
+
+/* CSS untuk style tampilan Handphone*/
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 17px 0px 17px 24px;
+  }
+  .deff {
+    text-align: right;
+    margin: 0px 20px 0px;
+    font-size: 16px;
+  }
+  .it {
+    text-align: right;
+    color: #ffffff;
+    margin: 0px 20px 0px;
+    margin-bottom: 160px;
+    font-size: 16px;
+  }
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  .pov {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .lorem {
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .abouts {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .test {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Work Sans", Black 900;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 65px;
+    color: #ffffff;
+  }
+
+  .footer {
+    background-color: #0b24fb;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 18px 50px 5px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Yos {
+    text-align: left;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 20px;
+  }
+  .isi {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .logo-defin {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 17px 0px 17px 24px;
+  }
+  .deff {
+    text-align: right;
+    margin: 0px 20px 0px;
+    font-size: 16px;
+  }
+  .it {
+    text-align: right;
+    color: #ffffff;
+    margin: 0px 20px 0px;
+    margin-bottom: 160px;
+    font-size: 16px;
+  }
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  .pov {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .lorem {
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .abouts {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .test {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Work Sans", Black 900;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 65px;
+    color: #ffffff;
+  }
+
+  .footer {
+    background-color: #0b24fb;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 18px 50px 5px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Yos {
+    text-align: left;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 20px;
+  }
+  .isi {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+}
+
+/* CSS untuk Style Teks*/
+
+strong {
+  color: #0b24fb;
+}
+
+.carus {
+  text-align: left;
+  padding: 10px;
+}
+
+.tebal {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Work Sans", Black 900;
+}
+
+.row {
+  background-color: black;
+}
+
+/* CSS untuk Button */
+
+.button {
+  padding: 18px 83px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {
+  background-color: #c7c7c7;
+}
+
+.button:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-click {
+  margin-top: -206px;
+  text-align: center;
+  margin-bottom: 190px;
+}
+
+.button1 {
+  padding: 3px 3px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 3px #999;
+  margin-top: -5px;
+}
+
+.button1:hover {
+  background-color: #c7c7c7;
+}
+
+.button1:active {
+  background-color: #969696;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-click1 {
+  margin-left: auto;
+}
